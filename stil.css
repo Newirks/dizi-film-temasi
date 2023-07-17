@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+body { background-image:url(img/arkaplan.png);}
+
+
+.sayfaust { background-image:url(img/sayfa_ust.png); height:50px;}
+.sayfaara { width:1000px;}
+.sayfaorta { background-color:#033; width:1000px; }
+.ustbuton {  margin-top:10px; margin-right:5px;}
+.menubaslik { background-color:#002121; font-size:18px; height:40px; padding-top:9px; padding-left:10px; color:#CCC;}
+.baslikarka { border-top-right-radius: 10px; border-top-left-radius: 10px;  background-image:url(img/baslik_arka.png); font-size:18px; height:60px; padding-top:9px; padding-left:10px; color:#CCC; font-size:15px;}
+.baslikarka ul {padding: 0px; margin: 0px; list-style-type: none;}
+.baslikarka ul li { list-style-type: none; float:left; margin-left:10px; margin-top:5px;}
+.baslikarka ul li a { text-decoration:none;
+	transition: all 500ms;
+	color:#CCC;
+	display: block;
+	width:100%;
+	padding:5px;}
+.baslikarka ul li a:hover {
+	color:#ff8a00; }
+.icerikbaslik { background-color:#002121; height:50px;  margin-bottom:20px; font-family:Verdana, Geneva, sans-serif; padding-top:14px; padding-left:15px; font-size:16px; color:#666; }
+.icerikbaslik2 { background-color:#002121; height:50px; margin-top:20px; margin-bottom:20px; font-family:Verdana, Geneva, sans-serif; padding-top:14px; padding-left:15px; font-size:16px; color:#666; }
+.kategori { background-color:#033; color:#CCC; padding:15px;}
+
+.kategori ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;}
+.kategori ul li {
+
+	list-style-type: none;}
+.kategori ul li a { text-decoration:none;
+	transition: all 500ms;
+	color:#CCC;
+	display: block;
+	width:100%;
+	padding:5px;
+	}
+.kategori ul li a:hover { 
+	color:#ff8a00; }
+.ikon { color:#ff8a00;}	
+.ikon2 { width:25px; height:25px;  color:#ff8a00; margin-bottom:8px;}	
+.yazikon { padding-top:10px;}
+.fullhd{width:40px;height:20px;background-color:black;font-size:11px;opacity:0.85;font-weight:600;border-radius:3px;text-shadow:0 1px black;text-align:center;line-height:19px;color:#ddd;padding:5px; margin-left:50px;}
+.popdizi{width:80px;height:100px;position:relative;float:left;overflow:hidden;margin:0 15px 15px 0;border-radius:3px;overflow:hidden;background-color:#070707; transition: all 500ms;}
+.popdizi:hover{opacity:0.60;}
+.popdizi figure{width:100%;height:100%;display:block;}
+.popdizi figure img{border-radius:10px;}
+.popdizi_yazi{width:100%;padding:4px 10px;position:absolute;bottom:0;left:0;font-size:12px;line-height:11px;text-shadow:0 1px black;background-color:transparent;zoom:1;background-color:rgba(0,0,0,0.85);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D9000000,endColorstr=#D9000000);border-radius:0 0 3px 3px;}
+.arsiv{width:100%;height:15px;display:inline-block;font-size:13px;font-weight:600;color:#ff9e05;letter-spacing:-0.25px;overflow:hidden;white-space:nowrap;word-wrap:normal;text-overflow:ellipsis;}
+.bolum_sezon{width:100%;display:inline-block;color:#dddddd;}
+.bayrak{position:absolute;top:5px;left:5px;line-height:12px;text-align:right;}
+.olcu{width:130px;height:180px;}
+.icresim img{ width:100%;height:100%;display:block;text-indent:-999999px;background-color:#070707;}
+
+.sondizi { padding:15px; padding-left:30px; margin-bottom:-45px; }
+.sondizi2{width:80px;height:100px;position:relative;float:left;overflow:hidden;border-radius:3px;overflow:hidden;background-color:#070707; transition: all 500ms;}
+.sondizi2:hover{opacity:0.60;}
+.sondizi2 figure{width:100%;height:100%;display:block;}
+.sondizi2 figure img{border-radius:10px;}
+.sondizi_yazi{width:100%;padding:4px 10px;position:absolute;bottom:0;left:0;font-size:12px;line-height:11px;text-shadow:0 1px black;background-color:transparent;zoom:1;background-color:rgba(0,0,0,0.85);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#D9000000,endColorstr=#D9000000);border-radius:0 0 3px 3px;}
+.son_arsiv{width:100%;height:15px;display:inline-block;font-size:13px;font-weight:600;color:#ff9e05;letter-spacing:-0.25px;overflow:hidden;white-space:nowrap;word-wrap:normal;text-overflow:ellipsis;}
+.son_bolum_sezon{width:100%;display:inline-block;color:#dddddd;}
+.son_bayrak{position:absolute;top:5px;right:5px;line-height:12px;text-align:left;}
+.son_olcu{width:150px;height:98px;}
+.son_icresim img{padding-right:10px; width:100%;height:100%;display:block;text-indent:-999999px;background-color:#070707;}
+
+.arama {margin-top:10px; border:0px; margin-left:20px; }
+.aramabuton {width:40px; padding:5px;  border:0px; color:#999; 	background-color: #004040;
+ }
+.aramayazi {
+	font-size:12px;
+	width: 200px;
+	padding: 5px;
+	border: 0px;
+	color: #999;
+	background-color: #004040;
+	padding-left: 20px;
+	height:30px;
+}
+.arama_genel { padding-left:250px;}
+.footer {  background-color:#002121; width:1000px; }
+.altyazi {padding-right:30px; padding-top:20px; margin-top:30px; margin-bottom:20px; border-right: Outset 1px #999; font-size:12px; color:#999;}
+.altlogo { padding-top:70px;  padding-left:30px; }
+.aracizgi { height:30px; background-color:#041515;}
+.altarka { padding-top:15px; padding-left:20px; font-size:12px; color:#666; height:40px; background-image:url(img/alt_arka.png); margin-bottom:50px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;}
+.altarkaboyut { width:1000px;}
+.habertakvim { background-color:#033;}
+.haber {background-color:#002121; font-size:18px; height:40px;  color:#CCC; padding-top:9px; padding-left:10px; margin-top:10px; margin-bottom:10px; }
+.haber_yazi {  color:#999;}
+.haber_yazi p { font-size:11px;}
+.haber_resim img { width:150px;height:98px; border-radius:10px; transition: all 500ms;}
+.haber_genel:hover {opacity:0.75;}
+.haber_genel { margin-bottom:10px; padding-top:10px; background-color:#002121;}
+.takvim {background-color:#002121; font-size:18px; height:40px;color:#CCC; padding-top:9px; padding-left:10px; margin-top:10px; margin-bottom:10px;  }
+.takvimbaslik { font-weight:bold; font-size:12px;}
+.takvimyazi {  font-size:12px;}
+
+.renk { background-color:#033;}
+.a { height:115px; width:150px; margin-right:7px;}
+.uye {  padding-left:220px;}
+.uye ul {list-style-type: none;}
+.uye ul li {float:left;list-style-type: none;margin-left:5px;}
+.uye ul li a { text-decoration:none;}
+.uye ul li a:hover {background-color:#ff8a00; color:#FFF; border-radius:10px;}
+.sosyal {   padding-left:290px; padding-bottom:50px;}
+.sosyal ul {list-style-type: none;}
+.sosyal ul li {float:left;list-style-type: none;margin-left:15px;margin-top:13px;}
+.sosyal ul li a { transition: all 500ms; text-decoration:none;}
+.sosyal ul li a:hover { opacity:0.50;}
+.sosikon { width:25px; height:25px;}
+.yuklemebar { width:1000px; margin-top:15px;}
+.arkarenk {background-color:#ff8a00;}
+
+.panel { background-color:#002121; color:#999; padding-left:10px; padding-right:20px; margin-left:10px; border-radius:0px;}
